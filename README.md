@@ -32,16 +32,16 @@ This project is a clone of LinkedIn built using React with Vite as the bundler. 
    npm run dev
 4. Open your browser and navigate to `http://localhost:1337` to view the application.
 5. now go to http://localhost:1337/admin/settings/users-permissions/roles choose Authenticated and  give full access to this endpoints *select all* BLOCK-LIST
- COMMENT
-CONNECTION
-CONNECTION-REQUEST
-LIKE
-POST
-select only this endpoints *users-permissions*
-updateMe
-removeCoverPicture
-removeProfilePicture
-me
+- COMMENT
+- CONNECTION
+- CONNECTION-REQUEST
+- LIKE
+- POST
+- select only this endpoints *users-permissions*
+- updateMe
+- removeCoverPicture
+- removeProfilePicture
+- me
 ## Usage
 
 1. Sign up for a new account or log in with existing credentials.
