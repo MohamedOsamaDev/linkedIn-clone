@@ -38,7 +38,7 @@ This project is a clone of LinkedIn built using React with Vite as the bundler. 
 - CONNECTION-REQUEST
 - LIKE
 - POST
-### select only this endpoints *users-permissions
+### select only this endpoints *users-permissions*
 - updateMe
 - removeCoverPicture
 - removeProfilePicture
