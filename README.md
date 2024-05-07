@@ -56,8 +56,8 @@ This project is created solely for practice and learning purposes. It is not aff
 - Add/remove comments
 
 ## Backend
-
-This project uses Strapi as the backend, collaborated with eng.MohamedOsamaDev
+- strapi cms with custom routes & controllers
+  This project uses Strapi as the backend, collaborated with eng.MohamedOsamaDev
 -[mohamed osama](https://github.com/MohamedOsamaDev)
 
 ## License
@@ -65,7 +65,6 @@ This project uses Strapi as the backend, collaborated with eng.MohamedOsamaDev
 This project is licensed under the [MIT License](LICENSE).
 
 ## Technologies Used
-
 - Vite
 - React
 - React Router
@@ -74,13 +73,13 @@ This project is licensed under the [MIT License](LICENSE).
 - Material-UI
 - Redux
 - Redux Toolkit
-- React Query
+- React Query tanStack
 - Axios
 - js-cookie
 - Moment.js
 - React Intersection Observer
 - Tailwind CSS
-
+- strapi cms 
 ## Contributors
--[mohamed osama](https://github.com/MohamedOsamaDev)
+- [mohamed osama](https://github.com/MohamedOsamaDev)
 - [Moataz Ali](https://github.com/moo3tazali)
