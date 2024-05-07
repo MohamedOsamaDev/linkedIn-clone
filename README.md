@@ -18,18 +18,30 @@ This project is a clone of LinkedIn built using React with Vite as the bundler. 
 - **Date Handling:** Moment.js is used for handling dates, ensuring consistency and accuracy in date representations.
 - **Iconography:** Material-UI Icons are utilized for adding various icons and symbols throughout the application.
 
-## Installation
-
-1. Clone the repository:
-   git clone `https://github.com/moo3tazali/linkedin-clone.git`
-2. Navigate to the project directory:a
-   cd linkedin-clone
-3. Install dependencies:
+##  Installation (client)
+1. Install dependencies:
    npm install
-4. Start the development server:
+2. Start the development server:
    npm run dev
-5. Open your browser and navigate to `http://localhost:5173` to view the application.
-
+3. Open your browser and navigate to `http://localhost:5173` to view the application.
+##  Installation (API strapi)
+1. Install dependencies:
+   npm install
+2. go to .env and replace exmaple cloudinary keys with your keys   
+3. Start the development server:
+   npm run dev
+4. Open your browser and navigate to `http://localhost:1337` to view the application.
+5. now go to http://localhost:1337/admin/settings/users-permissions/roles choose Authenticated and  give full access to this endpoints *select all* BLOCK-LIST
+ COMMENT
+CONNECTION
+CONNECTION-REQUEST
+LIKE
+POST
+select only this endpoints *users-permissions*
+updateMe
+removeCoverPicture
+removeProfilePicture
+me
 ## Usage
 
 1. Sign up for a new account or log in with existing credentials.
@@ -57,6 +69,7 @@ This project is created solely for practice and learning purposes. It is not aff
 
 ## Backend
 - strapi cms with custom routes & controllers
+- cloudinary for store media  
   This project uses Strapi as the backend, collaborated with eng.MohamedOsamaDev
 -[mohamed osama](https://github.com/MohamedOsamaDev)
 
@@ -79,7 +92,8 @@ This project is licensed under the [MIT License](LICENSE).
 - Moment.js
 - React Intersection Observer
 - Tailwind CSS
-- strapi cms 
+- strapi cms
+
 ## Contributors
 - [mohamed osama](https://github.com/MohamedOsamaDev)
 - [Moataz Ali](https://github.com/moo3tazali)
